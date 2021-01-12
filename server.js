@@ -32,7 +32,7 @@ connection.once("open", () =>
 );
 
 // First route - Welcome on Heroku
-app.get("/", (req, res) => res.send("API Running"));
+// app.get("/", (req, res) => res.send("API Running"));
 
 // routes
 const studentRoutes = require("./routes/students");
